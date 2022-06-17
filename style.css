@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightcoral;
+}
+
+.items{
+    height: 75%;
+    width: 70%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%,);
+    display: flex;
+    justify-content: space-between;
+}
+.d1 h3{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.d1 p{
+    color: white;
+    font-weight: lighter;
+    font-size: 13px;
+    display: flex;
+}
+.d2 p{
+    color: white;
+    background-color:rgb(80, 26, 128);
+    height: 35px;
+    width: 120%;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+}
+.d2 form{
+    background-color: white;
+    text-align: center;
+    width: 250px;
+    height: 260px;
+}
